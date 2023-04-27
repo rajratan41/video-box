@@ -8,14 +8,14 @@ const Head = () => {
         <h5 className="text-2xl">
           <FaBars />
         </h5>
-        <h2 className="text-2xl font-sans font-bold ml-2">Video Box</h2>
+        <h2 className="text-2xl font-sans font-bold ml-6">Video Box</h2>
       </div>
       <div className="flex items-center">
         <input
           className="w-[27rem] h-6 p-5 text-lg rounded-l-full border border-black focus:outline-none"
           type="text"
         />
-        <button className="text-xl border border-gray-600 hover:text-white hover:bg-slate-800 p-[10px] rounded-e-full">
+        <button className="text-xl border border-gray-600 bg-gray hover:text-white hover:bg-slate-800 p-[10px] rounded-e-full">
           <FaSearch />
         </button>
       </div>
