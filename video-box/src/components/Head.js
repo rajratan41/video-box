@@ -12,10 +12,10 @@ const Head = () => {
       </div>
       <div className="flex items-center">
         <input
-          className="w-[27rem] h-6 p-5 text-lg rounded-l-full border border-black focus:outline-none"
+          className="w-20 md:w-[27rem] h-6 p-5 text-lg rounded-l-full border border-black focus:outline-none"
           type="text"
         />
-        <button className="text-xl border border-gray-600 bg-gray hover:text-white hover:bg-slate-800 p-[10px] rounded-e-full">
+        <button className="text-xl border border-gray-600 bg-gray hover:text-white hover:bg-slate-500 p-[10px] rounded-e-full">
           <FaSearch />
         </button>
       </div>
