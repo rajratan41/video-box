@@ -1,9 +1,21 @@
 import React from "react";
+// Icons
 import { FaHome, FaVideo, FaHistory } from "react-icons/fa";
 import { MdVideoLibrary, MdLibraryBooks } from "react-icons/md";
 import { AiFillLike } from "react-icons/ai";
 
+// React Redux - subscribing to store
+import { useSelector } from "react-redux";
+
 const Sidebar = () => {
+  const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
+
+  // Early return pattern
+  if (!isMenuOpen) return null;
+
+  // using ternary operator
+  // !isMenuOpen ? null : (sidebar)
+
   return (
     <>
       <div className="py-5 px-8 shadow-lg w-52 ">
